@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klassy Cafe - Restaurant</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <a href="#home" class="text-2xl font-bold tracking-wider">
+        KLASSY<span class="text-orange-600">.</span>
+      </a>
+
+      <div class="hidden items-center gap-8 font-medium md:flex">
+        <a href="#home" class="hover:text-orange-600">Home</a>
+        <a href="#about" class="hover:text-orange-600">About</a>
+        <a href="#menu" class="hover:text-orange-600">Menu</a>
+        <a href="#chefs" class="hover:text-orange-600">Chefs</a>
+        <a href="#contact" class="hover:text-orange-600">Contact</a>
+      </div>
+
+      <a href="#contact"
+         class="rounded bg-orange-600 px-5 py-3 text-sm font-semibold text-white hover:bg-orange-700">
+        Book a Table
+      </a>
+    </nav>
+  </header>
+
+  <section  class="grid min-h-[550px] md:grid-cols-2">
+    <div class="flex flex-col justify-center bg-orange-600 px-8 py-16 text-white md:px-16">
+      <p class="mb-4 text-sm uppercase tracking-[4px]">Welcome to Klassy</p>
+
+      <h1 class="text-4xl font-bold leading-tight md:text-6xl">
+        Delicious Food<br>
+        Wonderful Life
+      </h1>
+
+      <p class="mt-6 max-w-md leading-7 text-orange-50">
+        Enjoy delicious meals made with fresh ingredients.
+        Experience great taste and memorable moments at Klassy Cafe.
+      </p>
+
+      <a href="#menu"
+         class="mt-8 w-fit rounded bg-white px-7 py-3 font-semibold text-orange-700 hover:bg-gray-100">
+        Explore Menu
+      </a>
+    </div>
+
+    <div class="min-h-[350px] bg-cover bg-center"
+         style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80')">
+    </div>
+  </section>
+
+  <section  class="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 md:grid-cols-2 md:px-12">
+    <div>
+      <p class="font-semibold uppercase tracking-widest text-orange-600">
+        About Us
+      </p>
+
+      <h2 class="mt-3 text-3xl font-bold leading-snug md:text-4xl">
+        Discover Our Restaurant Story
+      </h2>
+
+      <p class="mt-6 leading-8 text-gray-600">
+        Welcome to Klassy Cafe, where great food meets a welcoming atmosphere.
+        We prepare delicious dishes with carefully selected ingredients
+        to make every visit special.
+      </p>
+
+      <p class="mt-4 leading-8 text-gray-600">
+        Whether you're enjoying breakfast, lunch or dinner,
+        we look forward to serving you.
+      </p>
+
+      <a href="#contact"
+         class="mt-7 inline-block rounded bg-orange-600 px-6 py-3 font-semibold text-white hover:bg-orange-700">
+        Contact Us
+      </a>
+    </div>
+
+    <img
+      src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=80"
+      alt="Fresh restaurant food"
+      class="h-[400px] w-full rounded-lg object-cover shadow-lg">
+  </section>
+
+ 
+  <section class="bg-gray-50 px-6 py-20">
+    <div class="mx-auto max-w-7xl">
+
+      <div class="mb-12 text-center">
+        <p class="font-semibold uppercase tracking-widest text-orange-600">
+          Our Menu
+        </p>
+
+        <h2 class="mt-3 text-3xl font-bold md:text-4xl">
+          Our Most Popular Dishes
+        </h2>
+
+        <p class="mt-4 text-gray-500">
+          Fresh flavors and delicious meals for everyone.
+        </p>
+      </div>
+
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+        <article class="overflow-hidden rounded-xl bg-white shadow transition hover:-translate-y-2 hover:shadow-xl">
+          <img
+            src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80"
+            alt="Breakfast plate"
+            class="h-60 w-full object-cover">
+
+          <div class="p-6">
+            <div class="flex items-center justify-between gap-3">
+              <h3 class="text-xl font-bold">Fresh Breakfast</h3>
+              <span class="font-bold text-orange-600">₹299</span>
+            </div>
+            <p class="mt-3 leading-6 text-gray-500">
+              A fresh and satisfying breakfast prepared with care.
+            </p>
+          </div>
+        </article>
+
+        
+        <article class="overflow-hidden rounded-xl bg-white shadow transition hover:-translate-y-2 hover:shadow-xl">
+          <img
+            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+            alt="Healthy special dish"
+            class="h-60 w-full object-cover">
+
+          <div class="p-6">
+            <div class="flex items-center justify-between gap-3">
+              <h3 class="text-xl font-bold">Healthy Special</h3>
+              <span class="font-bold text-orange-600">₹349</span>
+            </div>
+            <p class="mt-3 leading-6 text-gray-500">
+              A balanced and flavorful meal made from fresh ingredients.
+            </p>
+          </div>
+        </article>
+
+       
+        <article class="overflow-hidden rounded-xl bg-white shadow transition hover:-translate-y-2 hover:shadow-xl">
+          <img
+            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+            alt="Chef special meal"
+            class="h-60 w-full object-cover">
+
+          <div class="p-6">
+            <div class="flex items-center justify-between gap-3">
+              <h3 class="text-xl font-bold">Chef's Special</h3>
+              <span class="font-bold text-orange-600">₹399</span>
+            </div>
+            <p class="mt-3 leading-6 text-gray-500">
+              A signature dish full of rich flavors and fresh ingredients.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+ 
+  <section  class="mx-auto max-w-7xl px-6 py-20">
+    <div class="mb-12 text-center">
+      <p class="font-semibold uppercase tracking-widest text-orange-600">
+        Our Team
+      </p>
+      <h2 class="mt-3 text-3xl font-bold md:text-4xl">
+        Meet Our Chefs
+      </h2>
+    </div>
+
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+      <div class="rounded-xl border border-gray-200 p-5 text-center transition hover:shadow-lg">
+        <img
+          src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80"
+          alt="Restaurant chef"
+          class="h-72 w-full rounded-lg object-cover">
+        <h3 class="mt-5 text-xl font-bold">Chef Michael</h3>
+        <p class="mt-2 text-gray-500">Head Chef</p>
+      </div>
+
+      <div class="rounded-xl border border-gray-200 p-5 text-center transition hover:shadow-lg">
+        <img
+          src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=600&q=80"
+          alt="Professional chef"
+          class="h-72 w-full rounded-lg object-cover">
+        <h3 class="mt-5 text-xl font-bold">Chef Sarah</h3>
+        <p class="mt-2 text-gray-500">Pastry Chef</p>
+      </div>
+
+      <div class="rounded-xl border border-gray-200 p-5 text-center transition hover:shadow-lg">
+        <img
+          src="https://images.unsplash.com/photo-1574966399825-0f1b1e3f7a26?auto=format&fit=crop&w=600&q=80"
+          alt="Restaurant kitchen chef"
+          class="h-72 w-full rounded-lg object-cover">
+        <h3 class="mt-5 text-xl font-bold">Chef David</h3>
+        <p class="mt-2 text-gray-500">Cuisine Specialist</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section  class="bg-gray-50 px-6 py-20">
+    <div class="mx-auto max-w-4xl">
+
+      <div class="mb-10 text-center">
+        <p class="font-semibold uppercase tracking-widest text-orange-600">
+          Reservation
+        </p>
+        <h2 class="mt-3 text-3xl font-bold md:text-4xl">
+          Book Your Table
+        </h2>
+      </div>
+
+      <form action="#" method="post" class="grid gap-5 rounded-xl bg-white p-6 shadow-md sm:grid-cols-2 sm:p-10">
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+          class="rounded border border-gray-300 px-4 py-4 outline-none focus:border-orange-600">
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+          class="rounded border border-gray-300 px-4 py-4 outline-none focus:border-orange-600">
+
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Phone Number"
+          class="rounded border border-gray-300 px-4 py-4 outline-none focus:border-orange-600">
+
+        <input
+          type="date"
+          name="date"
+          required
+          class="rounded border border-gray-300 px-4 py-4 outline-none focus:border-orange-600">
+
+        <select
+          name="guests"
+          required
+          class="rounded border border-gray-300 bg-white px-4 py-4 outline-none focus:border-orange-600 sm:col-span-2">
+          <option value="">Select Number of Guests</option>
+          <option value="1">1 Person</option>
+          <option value="2">2 People</option>
+          <option value="3">3 People</option>
+          <option value="4">4 People</option>
+          <option value="5">5+ People</option>
+        </select>
+
+        <textarea
+          name="message"
+          rows="4"
+          placeholder="Additional Message"
+          class="rounded border border-gray-300 px-4 py-4 outline-none focus:border-orange-600 sm:col-span-2"></textarea>
+
+        <button
+          type="submit"
+          class="rounded bg-orange-600 px-6 py-4 font-semibold text-white transition hover:bg-orange-700 sm:col-span-2">
+          Make a Reservation
+        </button>
+
+      </form>
+    </div>
+  </section>
+
+  
+  <footer class="bg-gray-900 px-6 py-10 text-center text-white">
+    <a href="#home" class="text-2xl font-bold">
+      KLASSY<span class="text-orange-500">.</span>
+    </a>
+
+    <p class="mt-4 text-sm text-gray-400">
+      Delicious food, friendly service and unforgettable experiences.
+    </p>
+
+    <div class="mt-5 flex justify-center gap-6 text-sm">
+      <a href="#home" class="hover:text-orange-500">Home</a>
+      <a href="#about" class="hover:text-orange-500">About</a>
+      <a href="#menu" class="hover:text-orange-500">Menu</a>
+      <a href="#contact" class="hover:text-orange-500">Contact</a>
+    </div>
+
+    <div class="mt-8 border-t border-gray-700 pt-5 text-sm text-gray-500">
+      © 2026 Klassy Cafe. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
